@@ -4,7 +4,7 @@ function Home()
 {
     return(
         <div className="homeContainer">
-            {"Welcome to the jungle."}
+            {"Welcome to the jungle, baby."}
         </div>
     )
 }
