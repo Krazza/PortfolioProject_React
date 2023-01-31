@@ -1,0 +1,10 @@
+.mainFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: var(--light-accent-color);
+    color: var(--main-bg-color);
+    font-size: 1.1rem;
+    font-weight: 550;
+}

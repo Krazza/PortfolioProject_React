@@ -1,0 +1,7 @@
+.mainContainer{
+    height: 100%;
+    background-image: linear-gradient(#00000075, #00000075), url("/src/assets/main_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

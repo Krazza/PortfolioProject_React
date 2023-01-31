@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "../styles/Footer.module.css";
 
 function Footer()
 {
     return(
-        <footer>{"-Hello there! -General Kenobi..."}</footer>
+        <footer className={styles.mainFooter}>{"-Hello there! -General Kenobi..."}</footer>
     )
 }
 
