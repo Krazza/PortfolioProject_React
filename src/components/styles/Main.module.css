@@ -1,5 +1,5 @@
 .mainContainer{
-    height: 100%;
+    height: fit-content;
     background-image: linear-gradient(#00000075, #00000075), url("/src/assets/main_background.png");
     background-size: cover;
     background-position: center;

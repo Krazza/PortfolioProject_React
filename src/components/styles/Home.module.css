@@ -1,0 +1,17 @@
+.homeContainer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+img{
+    height: 50vh;
+    width: auto;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 5;
+}
+
+h2{
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 1;
+}
