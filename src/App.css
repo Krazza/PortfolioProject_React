@@ -5,8 +5,12 @@
     --light-accent-color: #F28B50;
 }
 
-#root{
+body{
     height: 100vh;
+}
+
+#root{
+    height: 100%;
 }
 
 html{
