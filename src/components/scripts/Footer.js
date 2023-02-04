@@ -4,7 +4,7 @@ import styles from "../styles/Footer.module.css";
 function Footer()
 {
     return(
-        <footer className={styles.mainFooter}>{"-Hello there! -General Kenobi..."}</footer>
+        <footer className={styles.mainFooter}>{"<WEBBER/>;"}</footer>
     )
 }
 

@@ -6,7 +6,7 @@ function Header()
 {
     return(
         <header className={styles.mainHeader}>
-            <h2>{"<WEBBER/>;"}</h2>
+            <h2>{"<WEBBER>;"}</h2>
             <Nav/>
         </header>
     )

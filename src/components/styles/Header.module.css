@@ -1,5 +1,5 @@
 .mainHeader{
-    height: 9vh;
+    min-height: 8vh;
     display: flex;
     justify-content: space-between;
     background-color: var(--light-accent-color);
