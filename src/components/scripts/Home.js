@@ -7,7 +7,7 @@ function Home()
     return(
         <div className={styles.homeContainer}>
             <div className={styles.infoContainer}>
-                <h2>{`Moi, my name is Muondo Vladislav Emerson, and I am looking for a`}</h2> 
+                <h2>{`Moi, my name is Muondo Vladislav Emerson,`} <span>{" I am looking for a"}</span></h2> 
                 <h1>{`INTERN/JUNIOR`}<br/>{"Developer position"}</h1>
                 <p>{`A highly motivated and driven Full Stack Web Developer student (Business college Helsinki) with knowledge of JavaScript, TypeScript, React, and Redux.
                 Previous background in commercial game development as Game Designer using Unreal Engine (Blueprints) and Unity (C#).`}</p>

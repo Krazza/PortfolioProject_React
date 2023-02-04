@@ -1,11 +1,4 @@
-.mainHeader{
-    min-height: 8vh;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--light-accent-color);
-    align-items: center;
-    color: var(--main-bg-color);
-}
+/* ----- TAGS -----*/
 
 ul{
     margin-right: 1vw;
@@ -17,18 +10,31 @@ ul li {
     padding: 0 1vw 0 1vw;
 }
 
-.mainHeader h2{
-    padding-left: 2vw;
-    font-size: 1.6rem;
-    font-weight: 750;
-}
-
 ul a{
     color: var(--main-bg-color);
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+/* ----- CLASSES ----- */
+
+.mainHeader{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--light-accent-color);
+    align-items: center;
+    color: var(--main-bg-color);
+}
+
+.mainHeader h2{
+    padding-left: 2vw;
+    font-size: 1.6rem;
+    font-weight: 750;
+}
+
+/* ----- PSEUDO ----- */
 
 ul a:hover{
     color: white;

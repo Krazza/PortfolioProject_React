@@ -3,18 +3,7 @@
     padding: 0;
 }
 
-.homeContainer{
-    display: grid;
-    height: 100%;
-    row-gap: 3vh;
-    column-gap: 3vw;
-    grid-template-columns: [line1] 40px [line2] 40vw [line3] auto [line4] 40px [end];
-    grid-template-rows: [row1] 60px [row2] 20.5vh [row3] 20.5vh [row4] 4vh [row5] auto [row6] 60px [row7];
-    background-image: linear-gradient(#000000ef, #00000075), url("/src/assets/main_background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+/* ----- TAGS -----*/
 
 img{
     height: auto;
@@ -24,18 +13,24 @@ img{
     border-radius: 12px;
 }
 
-.infoContainer h2{
-    color: white;
-    font-size: 1.5rem;
+span{
+    text-decoration: underline 4px var(--light-accent-color);
+    text-underline-offset: 6px;
 }
 
-.infoContainer p{
-    color: white;
-    inline-size: 550px;
-    font-weight: 500;
-    font-size: 1.2rem;
-    text-align: justify;
-    align-self: center;
+/* ----- CLASSES ----- */
+
+.homeContainer{
+    display: grid;
+    height: 100%;
+    row-gap: 3vh;
+    column-gap: 3vw;
+    grid-template-columns: [line1] 40px [line2] 40vw [line3] auto [line4] 40px [end];
+    grid-template-rows: [row1] 60px [row2] 20.5vh [row3] 20.5vh [row4] 4vh [row5] auto [row6] 60px [row7];
+    background-image: linear-gradient(#000000ef, #00000095), url("/src/assets/main_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .infoContainer{
@@ -54,18 +49,18 @@ img{
     color:var(--light-accent-color);
 }
 
-#tech {
-    grid-column: 3;
-    grid-row: 4;
+.infoContainer h2{
     color: white;
     font-size: 1.5rem;
 }
 
-#links{
-    grid-column: 2;
-    grid-row: 4;
+.infoContainer p{
     color: white;
-    font-size: 1.5rem;
+    inline-size: 550px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: justify;
+    align-self: center;
 }
 
 .linkSection{
@@ -89,3 +84,30 @@ img{
     height: 100%;
     width: 100%;
 }
+
+/* ----- IDs -----*/
+
+#tech {
+    grid-column: 3;
+    grid-row: 4;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#links{
+    grid-column: 2;
+    grid-row: 4;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
