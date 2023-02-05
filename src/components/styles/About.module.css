@@ -1,0 +1,51 @@
+.aboutContainer{
+    min-height: 80vh; /* I want it to be 100%, but it won't work, [TO FIX] */
+    background-image: linear-gradient(#000000ef, #00000095), url("/src/assets/images/about_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6vh 4.5vw 6vh 4.5vw;
+}
+
+.infoContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoContainer p{
+    color: white;
+    inline-size: 550px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: justify;
+    align-self: center;
+}
+
+.infoContainer section p{
+    text-align: center;
+}
+
+.aboutContainer h1{
+    color: var(--light-accent-color);
+    font-size: 3rem;
+}
+
+#aboutSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#aboutSec img{
+    height: 55vh;
+    width: auto;
+    border-radius: 12px;
+}
+
+#aboutSec p{
+    color: white;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 2vh;
+}
