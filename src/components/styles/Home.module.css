@@ -27,10 +27,11 @@ span{
     column-gap: 3vw;
     grid-template-columns: [line1] 40px [line2] 40vw [line3] auto [line4] 40px [end];
     grid-template-rows: [row1] 60px [row2] 20.5vh [row3] 20.5vh [row4] 4vh [row5] auto [row6] 60px [row7];
-    background-image: linear-gradient(#000000ef, #00000095), url("/src/assets/main_background.png");
+    background-image: linear-gradient(#000000ef, #00000095), url("/src/assets/images/main_background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 .infoContainer{

@@ -31,7 +31,7 @@ function Home()
                 <Icon icon="mdi:unity" color="white" width="75" height="75"/>
                 <Icon icon="cib:unreal-engine" color="white" width="75" height="75"/>
             </section>
-            <img alt="main pic" src={require("/Users/s2200741/Documents/Repositories/portfolio_project/src/assets/me.JPG")}/>
+            <img alt="main pic" src={require("../../assets/images/me.JPG")}/>
         </div>
     )
 }
