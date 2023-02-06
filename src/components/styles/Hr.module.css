@@ -1,0 +1,10 @@
+.hrMain{
+    border: 0;
+    width: 80vw;
+    border-top: 1px solid white;
+    border-top-width: 0.3vh;
+    grid-column: 1 / span 4;
+    grid-row: 4;
+    justify-self: center;
+    align-self: center;
+}

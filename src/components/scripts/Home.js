@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
+import Hr from "./Hr.js";
 import { Icon } from "@iconify/react";
 
 function Home()
@@ -32,6 +33,7 @@ function Home()
                 <Icon icon="cib:unreal-engine" color="white" width="75" height="75"/>
             </section>
             <img alt="main pic" src={require("../../assets/images/me.JPG")}/>
+            <Hr/>
         </div>
     )
 }
