@@ -1,4 +1,29 @@
-.aboutContainer{
+ul{
+    color: white;
+}
+
+.stack ul li {
+    display: block;
+}
+
+.stack{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery img{
+    height: auto;
+    width: 40vw;
+    border-radius: 12px;
+}
+
+.experienceContainer{
     min-height: 80vh; /* I want it to be 100%, but it won't work, [TO FIX] */
     background-image: linear-gradient(#000000ef, #00000095), url("/src/assets/images/about_background.png");
     background-size: cover;
@@ -9,41 +34,45 @@
 
 .infoContainer{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .infoContainer p{
     color: white;
-    inline-size: 550px;
     font-weight: 500;
     font-size: 1.2rem;
     text-align: justify;
-    align-self: center;
 }
 
 .infoContainer section p{
     text-align: center;
 }
 
-.aboutContainer h1{
+.experienceContainer h1{
     color: var(--light-accent-color);
     font-size: 3.5rem;
+    padding: 0 0 3vh 0;
 }
 
-#aboutSec{
+.experienceContainer h2, h3{
+    color: white;
+}
+
+#experienceSec{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-#aboutSec img{
+#experienceSec img{
     height: 55vh;
     width: auto;
     border-radius: 12px;
 }
 
-#aboutSec p{
+#experienceSec p{
     color: white;
     font-weight: 550;
     text-align: center;

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './pages/Layout.js';
 import Home from "./components/scripts/Home.js";
 import About from "./components/scripts/About.js";
+import Experience from "./components/scripts/Experience";
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path="about" element={<About/>}/>
+          <Route path="experience" element={<Experience/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

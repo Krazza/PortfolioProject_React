@@ -22,9 +22,9 @@ span{
 
 .homeContainer{
     display: grid;
-    height: 100%;
-    row-gap: 3vh;
-    column-gap: 3vw;
+    height: fit-content;
+    row-gap: 5vh;
+    column-gap: 5vw;
     grid-template-columns: [line1] 2vw [line2] 40vw [line3] auto [line4] 2vw [end];
     grid-template-rows: [row1] 6vh [row2] 20.5vh [row3] 20.5vh [row4] 10vh [row5] auto [row6] auto [row7] 6vh [row8];
     background-image: linear-gradient(#000000ef, #00000095), url("/src/assets/images/main_background.png");
@@ -38,6 +38,7 @@ span{
     grid-column: 3 / span 1;
     grid-row: 2 / span 2;
     display: flex;
+    row-gap: 3vh;
     height: 41vh;
     flex-direction: column;
     justify-content: space-between;
@@ -92,14 +93,14 @@ span{
     grid-column: 3;
     grid-row: 5;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* go for 2rem for bigger screens */
 }
 
 #links{
     grid-column: 2;
     grid-row: 5;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* go for 2rem for bigger screens */
 }
 
 
