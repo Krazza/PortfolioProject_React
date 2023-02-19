@@ -4,6 +4,7 @@ import Layout from './pages/Layout.js';
 import Home from "./components/scripts/Home.js";
 import About from "./components/scripts/About.js";
 import Experience from "./components/scripts/Experience";
+import Projects from "./components/scripts/Projects"
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path="about" element={<About/>}/>
           <Route path="experience" element={<Experience/>}/>
+          <Route path="projects" element={<Projects/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

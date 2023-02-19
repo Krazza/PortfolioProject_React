@@ -1,0 +1,8 @@
+.projectsContainer{
+    min-height: 80vh; /* I want it to be 100%, but it won't work, [TO FIX] */
+    background-image: linear-gradient(#000000ef, #00000095), url("/src/assets/images/about_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6vh 4.5vw 6vh 4.5vw;
+}
