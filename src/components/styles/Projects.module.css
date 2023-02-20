@@ -1,8 +1,86 @@
 .projectsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 80vh; /* I want it to be 100%, but it won't work, [TO FIX] */
     background-image: linear-gradient(#000000ef, #00000095), url("/src/assets/images/about_background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 6vh 4.5vw 6vh 4.5vw;
+}
+
+.projectsContainer h1{
+    color: var(--light-accent-color);
+    font-size: 3.5rem;
+    padding: 0 0 3vh 0;
+}
+
+.projectsContainer h2 {
+    color: white;
+}
+
+.projectsContainer a{
+    text-decoration: none;
+    color: white;
+}
+
+.picSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.picSec img{
+    height: 40vh;
+    width: auto;
+    border-radius: 12px;
+}
+
+#habit01 .picSec p{
+    color: white;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+#habit01{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    row-gap: 10vh;
+    padding: 0 0 6vh 0;
+}
+
+#habit01 p{
+    color: white;
+    inline-size: 550px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: justify;
+    align-self: center;
+}
+
+#soon{
+    text-decoration: underline 4px var(--light-accent-color);
+    text-underline-offset: 6px;
+}
+
+@media only screen and (max-width: 1080px)
+{
+    #habit01{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-wrap: wrap;
+        row-gap: 10vh;
+        padding: 0 0 6vh 0;
+    }
+
+    .projectsContainer h2{
+        text-align: center;
+        padding: 0 0 6vh 0;
+    }
 }
