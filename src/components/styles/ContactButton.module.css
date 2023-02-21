@@ -1,0 +1,19 @@
+.myContactButton{
+    height: 6vh;
+    width: 11vw;
+    border-radius: 12px;
+    border-width: 0px;
+    color: var(--main-bg-color);
+    box-shadow: 0px 0px 6px 6px #9f5851;
+    background-color: var(--light-accent-color);
+    position: fixed;
+    bottom: 10vh;
+    right: 5vw;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.myContactButton:hover{
+    color: white;
+    box-shadow: 0px 0px 4px 4px white;
+}

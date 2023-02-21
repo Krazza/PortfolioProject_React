@@ -10,8 +10,6 @@ function Nav()
                 <li><NavLink to="about">{"About"}</NavLink></li>
                 <li><NavLink to="experience">{"Experience"}</NavLink></li>
                 <li><NavLink to="projects">{"Projects"}</NavLink></li>
-                <li><NavLink to="/">{"Hobbies"}</NavLink></li>
-                <li><NavLink to="/">{"Contact"}</NavLink></li>
             </ul>
         </nav>
     )

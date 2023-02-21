@@ -1,6 +1,7 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import ContactButton from "./ContactButton.js";
 import Hr from "./Hr.js";
+import styles from "../styles/Home.module.css";
 import { Icon } from "@iconify/react";
 
 function Home()
@@ -34,6 +35,7 @@ function Home()
             </section>
             <img alt="main pic" src={require("../../assets/images/me.JPG")}/>
             <Hr/>
+            <ContactButton/>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import ContactButton from "./ContactButton.js";
 import styles from "../styles/About.module.css";
 
 function About()
@@ -13,6 +14,7 @@ function About()
                     <p>{"Sunny day in Helsinki, DALLE-2."}</p>
                 </section>
             </div>
+            <ContactButton/>
         </div>
     );
 }

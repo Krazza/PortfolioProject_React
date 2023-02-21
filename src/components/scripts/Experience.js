@@ -1,4 +1,5 @@
 import React from "react";
+import ContactButton from "./ContactButton.js";
 import styles from "../styles/Experience.module.css";
 
 function Experience()
@@ -44,6 +45,7 @@ function Experience()
                     <img alt="sunny day in Helsinki" src={require("../../assets/images/carnage.jpeg")}/>
                 </section>
             </div>
+            <ContactButton/>
         </div>
     );
 }

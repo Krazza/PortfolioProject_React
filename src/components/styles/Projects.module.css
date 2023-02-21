@@ -16,13 +16,10 @@
     padding: 0 0 3vh 0;
 }
 
-.projectsContainer h2 {
-    color: white;
-}
-
 .projectsContainer a{
-    text-decoration: none;
     color: white;
+    text-decoration: underline 4px var(--light-accent-color);
+    text-underline-offset: 6px;
 }
 
 .picSec{
