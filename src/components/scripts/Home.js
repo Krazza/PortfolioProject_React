@@ -17,10 +17,10 @@ function Home()
             <h2 id={styles.tech}>{`WEBBER.skills`}</h2>
             <h2 id={styles.links}>{`WEBBER.links`}</h2>
             <section className={styles.linkSection}>
-            <a href="https://docs.google.com/document/d/1ytQBhYQuQYSdYEquLYx8n8dqUQ93UmT7iCycKPhhpIY/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><Icon icon="pepicons-pop:cv" color="white" width="75" height="75"/></a>
-                <a href="https://github.com/Krazza" target="_blank" rel="noopener noreferrer"><Icon icon="mdi:github" color="white" width="75" height="75" /></a>
-                <a href="https://www.linkedin.com/in/vladislav-muondo-87021a194/" target="_blank" rel="noopener noreferrer"><Icon icon="mdi:linkedin" color="white" width="75" height="75"/></a>
-                <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target="_blank" rel="noopener noreferrer"><Icon icon="maki:college" color="white" width="75" height="75"/></a>
+                <a href="https://docs.google.com/document/d/1ytQBhYQuQYSdYEquLYx8n8dqUQ93UmT7iCycKPhhpIY/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><Icon icon="pepicons-pop:cv" color="white" width="75" height="75" display={"block"}/>{"CV"}</a>
+                <a href="https://github.com/Krazza" target="_blank" rel="noopener noreferrer"><Icon icon="mdi:github" color="white" width="75" height="75" display={"block"}/>{"GitHub"}</a>
+                <a href="https://www.linkedin.com/in/vladislav-muondo-87021a194/" target="_blank" rel="noopener noreferrer"><Icon icon="mdi:linkedin" color="white" width="75" height="75" display={"block"}/>{"LinkedIn"}</a>
+                <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/" target="_blank" rel="noopener noreferrer"><Icon icon="maki:college" color="white" width="75" height="75" display={"block"}/>{"School"}</a>
             </section>
             <section className={styles.skillSection}>
                 <Icon icon="vscode-icons:file-type-firestore" color="white" width="75" height="75" />

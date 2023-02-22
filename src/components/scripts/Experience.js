@@ -10,13 +10,8 @@ function Experience()
             <h2>{"Game Designer at Space Sauce st."}</h2>
             <h3>{"From 14.12.2020 to 08.08.2022"}</h3>
             <div className={styles.infoContainer}>
-                <p>{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat ante lacinia, vulputate ante id, ullamcorper leo. 
-                Curabitur tincidunt erat a varius tincidunt. Quisque consectetur egestas ultricies. 
-                In hac habitasse platea dictumst. Suspendisse tellus est, rutrum pellentesque sollicitudin vel, accumsan id tellus. 
-                Donec nec nibh erat. Cras egestas efficitur nisl non semper. 
-                Morbi vel justo tristique, rutrum tellus eget, iaculis quam. 
-                Integer tempor felis quis felis tincidunt fringilla. 
-                Sed vitae interdum neque.`}</p>
+                <p>{`This position was my first development job since my graduation and I can confidently say that it has been a great learning expirience. 
+                We worked in a small group of 7 people and developed a mobile multiplayer RTS (real time strategy) game for Android devices.`}</p>
                 <h2>{"Tools"}</h2>
                 <div className={styles.stack}>
                     <ul>
