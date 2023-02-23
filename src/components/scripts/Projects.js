@@ -25,7 +25,7 @@ function Projects()
             </section>
         </div>
         <Hr/>
-        <h2><a href="https://github.com/Krazza" target="_blank" rel="noopener noreferrer"><span id={styles.soon}>{"More to come..."}</span></a></h2>
+        <h2><a href="https://github.com/Krazza" target="_blank" rel="noopener noreferrer"><span id={styles.soon}>{"More to come... (soon)"}</span></a></h2>
         <ContactButton/>
     </div>)
 }

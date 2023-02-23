@@ -34,10 +34,10 @@ function Experience()
                 </div>
                 <h2>{"Gallery"}</h2>
                 <section className={styles.gallery}>
-                    <img alt="sunny day in Helsinki" src={require("../../assets/images/experience.jpeg")}/>
-                    <img alt="sunny day in Helsinki" src={require("../../assets/images/fortress.jpeg")}/>
-                    <img alt="sunny day in Helsinki" src={require("../../assets/images/thor.jpeg")}/>
-                    <img alt="sunny day in Helsinki" src={require("../../assets/images/carnage.jpeg")}/>
+                    <img alt="space_dog_fight" src={require("../../assets/images/experience.jpeg")}/>
+                    <img alt="space_fortress" src={require("../../assets/images/fortress.jpeg")}/>
+                    <img alt="spaceship_thor" src={require("../../assets/images/thor.jpeg")}/>
+                    <img alt="spaceship_carnage" src={require("../../assets/images/carnage.jpeg")}/>
                 </section>
             </div>
             <ContactButton/>
