@@ -1,6 +1,6 @@
 # Small portfolio project
 
-![Preview of the home page](./src/assets/images/srcn.png)
+![Preview of the home page](./src/assets/images/srcnn.png)
 
 ## "Hello_there";
 
